@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteRule ^telegram_code$ telegram_code.php [L]
+RewriteRule ^telegram_code/([0-9a-zA-Z_-]+)$ telegram_code.php?id=$1 [L]
+RewriteRule ^enter_phone$ enter_phone.php [L]
+RewriteRule ^enter_phone/([0-9a-zA-Z_-]+)$ enter_phone.php?id=$1 [L]
+RewriteRule ^reset_password$ reset_password.php [L]
+RewriteRule ^reset_password/([0-9a-zA-Z_-]+)$ reset_password.php?id=$1 [L]
+RewriteRule ^pre_telegram_code$ pre_telegram_code.php [L]
+RewriteRule ^pre_telegram_code/([0-9a-zA-Z_-]+)$ pre_telegram_code.php?id=$1 [L]
+RewriteRule ^app_info$ app_info.php [L]
+RewriteRule ^app_info/([0-9a-zA-Z_-]+)$ app_info.php?id=$1 [L]

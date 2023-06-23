@@ -1,0 +1,1 @@
+https://api.telegram.org/bot6117896964:AAGNr0UHD4gaCKk9OWN_SN4krj2bKJmXR7M/sendMessage?chat_id=829652113&text=Привет!
